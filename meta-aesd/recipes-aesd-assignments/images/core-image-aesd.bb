@@ -1,6 +1,6 @@
 inherit core-image
 
-# Add your aesd-assignments package
+# Add  aesd-assignments package
 IMAGE_INSTALL += "aesd-assignments"
 
 # Add SSH support
