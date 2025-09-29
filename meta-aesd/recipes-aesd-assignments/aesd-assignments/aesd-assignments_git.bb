@@ -1,12 +1,9 @@
-# See https://git.yoctoproject.org/poky/tree/meta/files/common-licenses
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-# TODO: Set to assignments repo. Use ssh protocol
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-Holmberg18.git;protocol=ssh;branch=main"
 
 PV = "1.0+git${SRCPV}"
-# TODO: set to reference a specific commit hash in your assignment repo
 SRCREV = "db541864829e832670bdc3b3a81653e288ed0ed9"
 
 # Sets staging directory based on WORKDIR
